@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Ubuntu&display=swap');
+
+body {
+	background: #FFFFFF;
+	
+}
+.heading {
+	width: none;
+	height: 70px;
+	background-color: #FFFFFF;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.h1 {
+background-color: #C71414;
+color: #FFFFFF;
+text-align: left;
+font-size: 30px;
+font-weight: normal;
+font-family: 'Russo One', sans-serif;
+}
+
+.image {
+width: none;
+height: 400px;
+background-image: url(../img/ladder.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.link {
+width: 500px;
+height: 500px;
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.section0 {
+width: none;
+height: 50px;
+background-color: #CBCBCB;
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.section1, .section2, .section3, .section4 {
+width: none;
+height: 70px;
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.footer {
+width: none;
+height: 50px;
+background-color: #C71414;
+color: #FFFFFF;
+text-align: left;
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;
+}
