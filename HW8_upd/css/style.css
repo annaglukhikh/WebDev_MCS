@@ -1,0 +1,72 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet');
+
+body {
+	font-size: calc(0.75em + 1vmin);
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+.font {
+	font-family: Ubuntu;
+	padding: 10px; 
+}
+
+.columns {
+	width: 80vw;
+	margin: auto;
+	min-height: 450px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.column {
+	width: calc((100% - 40px)/3);
+	background-color: #FBE735;
+	border: 1px solid black;
+	border-radius: 0% 0% 5% 5%; 
+}
+
+.image1	{
+	background-image: url(../img/mick.jpg);
+	background-size: cover;
+	background-position: center; 
+	padding-bottom: 100%;
+}
+
+.image2	{
+	background-image: url(../img/vladimir.jpg);
+	background-size: cover;
+	background-position: center; 
+	padding-bottom: 100%;
+}
+
+.image3	{
+	background-image: url(../img/Stephen.jpg);
+	background-size: cover;
+	background-position: center; 
+	padding-bottom: 100%;
+}
+
+.header {
+	font-family: Ubuntu;
+	margin: 0% 0% 5% 0%;
+	padding: 30px;
+	min-height: 30px;
+	display: flex;
+	background-color: #FBE735;
+}
+
+.footer {
+	font-family: Ubuntu;
+	margin: 15% 0%;
+	padding: 30px;
+	height: 30px;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	background-color: #FBE735;
+}
